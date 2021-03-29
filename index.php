@@ -7,6 +7,7 @@ if ($fileName == '/') {
 }
 // print_r($fileName); die;
 $file = file_get_contents(".$fileName.html", true);
+$file = str_replace('0903.55.2018', '0908662015', $file);
 echo $file;
 
 ?>
