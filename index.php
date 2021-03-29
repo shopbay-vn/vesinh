@@ -10,7 +10,7 @@ $file = file_get_contents(".$fileName.html", true);
 $file = str_replace('0903.55.2018', '0908662015', $file);
 $file = str_replace('0976.728.898', '0948896966', $file);
 $file = str_replace('moitruongdothisaigonxanh@gmail.com', 'congtyvesinhso1saigon@gmail.com', $file);
-$file = str_replace('CÔNG TY MÔI TRƯỜNG ĐÔ THỊ SÀI GÒN', 'Công ty vệ sinh đô thị số 1 Sài Gòn', $file);
+$file = str_replace('Công ty môi trường đô thị sài gòn', 'Công ty vệ sinh đô thị số 1 Sài Gòn', $file);
 echo $file;
 
 ?>
